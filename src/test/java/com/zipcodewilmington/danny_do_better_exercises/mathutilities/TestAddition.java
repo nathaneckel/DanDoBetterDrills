@@ -42,7 +42,7 @@ public class TestAddition {
         short addedValue = 7;
         short expected = 16391;
         // : When
-        short actual = mathUtils.add(baseValue, addedValue);
+        short actual = (short) mathUtils.add(baseValue, addedValue);
         // : Then
         assertEquals(expected, actual);
     }
